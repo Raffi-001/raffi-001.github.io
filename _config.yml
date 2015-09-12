@@ -2,13 +2,13 @@
 title: Raffi Hovhannesian
 title2: My Personal Playground
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: hovhannesian@gmail.com
+description: "Blogging about web development technologies plus some tips and tricks."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "http://hovhannesian.com"
+twitter_username: raffi_001
+github_username:  Raffi-001
+facebook_username:  hovhannesian
 
 # Build settings
 markdown: kramdown
