@@ -1,0 +1,73 @@
+---
+layout:     post
+title:      "1-2 Hours And Your Blog is Ready"
+subtitle:   "Findout how to create and launch a modern blog in a very short time"
+date:       2015-09-12 12:00:00
+author:     "Raffi"
+header-img: "img/post-bg-06.jpg"
+---
+<p>In fact it took more than two hours to create this blog that you are reading right now, but that included doing several other tasks like fixing some issues on a client's site, browsing facebook, writing this article and fixing the kitchen's curtain for my mom.</p>
+
+<h2 class="section-heading">What You Need</h2>
+
+<ul>
+	<li>Terminal window</li>
+	<li>Text editor</li>
+	<li>Github Account</li>
+	<li>Disqus Account</li>
+	<li>A Domain Name (Optional)</li>
+</ul>
+<p>Now that you have everything needed. Let's start building our blog system.</p>
+
+<h2>Installing Jekyll</h2>
+<blockquote>Jekyll is an open source program, written in Ruby by Tom Preston-Werner, GitHub's co-founder. Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. --Wikipedia</blockquote>
+<p>Following the installation steps mentioned on <a href="https://jekyllrb.com" title="Jekyll">Jekyll's Official Website</a> do the following:</p>
+<pre>
+gem install jekyll
+jekyll new my-awesome-site
+cd my-awesome-site
+jekyll serve
+</pre>
+<p>In your browser address bar type http://0.0.0.0:4000 or whatever address jekyll serve provides and hit enter.</p>
+<p>Oops the blog is ready! It took less than a minute! But I promised you that you will spend two hours, so let's repeat the above 120 times :p</p>
+<p>In fact, what we did is that we just made sure that jekyll is working with no issues. Go ahead and explore the code in my-awesome-site folder. When you feel ready continue to the next steps.</p>
+
+<h2>Installing a  Bootstrap Powered Jekyll Theme</h2>
+<p>Googling for Jekyll themes I came across many beautiful themes from which I chose the following one:</p>
+<p><a href="https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll" title="Startbootstrap Clean Blog Jekyll">https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll</a></p>
+
+<h2>So, let's install it:</h2>
+<p>Make sure you <code>cd ..</code> out of the previously installed folder</p>
+<pre>
+git clone https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git
+mv startbootstrap-clean-blog-jekyll mysite
+cd mysite
+jekyll serve
+</pre>
+<p>Go to http://0.0.0.0:4000 again and you will see our blog with the new theme</p>
+
+<h2>Modify the Theme</h2>
+<p>If you are familiar with Bootstrap and LESS which I assume you are ... you can simply modify the files in the "less" folder in the root of "mysite" folder.</p>
+
+<h2>Main Configuration and Personalization</h2>
+<p>With your favourite text editor open the "_config.yml" file and edit the values under #site settings.</p>
+
+<h2>Adding Your First Post</h2>
+<p>in the folder named "_layouts" you will find all the posts in the blog as a file for each post. You will probably want to delete all of them and leave just one as a template for your future posts. Edit the template that's left and make sure you keep the naming conversion yyyy-mm-dd-page-title-seperated-with-hypens.markdown</p>
+<h2>Creating the Comment funcationality</h2>
+<p>
+If you don't have an account on <a href="disqus.com">Disqus</a>, create one. Then follow the instructions on <a href="https://publishers.disqus.com/engage?utm_source=Home-Nav">https://publishers.disqus.com/engage?utm_source=Home-Nav</a> until you get the embedding code. 
+</p>
+<p>
+With your editor open the file "_layouts/post.html" and put the embedding code before the forth closing div from bottom.
+</p>
+
+<h2>Uploading your site to github</h2>
+<p>
+Follow the instructions on this page https://pages.github.com/
+</p>
+
+<p>
+That's all for today... let me know which point needs to be described more extensively and I'll write a seperate post for it. Thanks for reading.
+</p>
+<p>Photograph by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
