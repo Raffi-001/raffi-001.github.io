@@ -5,9 +5,74 @@
     <description>Blogging about web development technologies plus some tips and tricks.</description>
     <link>http://hovhannesian.com/</link>
     <atom:link href="http://hovhannesian.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Sep 2015 05:34:57 +0400</pubDate>
-    <lastBuildDate>Sun, 13 Sep 2015 05:34:57 +0400</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2016 03:54:01 +0400</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2016 03:54:01 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>My composer.json</title>
+        <description>&lt;p&gt;For small to medium sized projects I end up using the following in almost every project.&lt;/p&gt;
+&lt;h2&gt;Dependencies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP 5.3.0 and above v7 is coming soon.&lt;/li&gt;
+&lt;li&gt;Monolog: comes required by Slim Skeleton and is a very useful tool. https://github.com/slimphp/Slim-Skeleton&lt;/li&gt;
+&lt;li&gt;Slim Framework.&lt;/li&gt;
+&lt;li&gt;Twig templating system.&lt;/li&gt;
+&lt;li&gt;Illuminate: a full database toolkit for PHP. https://github.com/illuminate/database&lt;/li&gt;
+&lt;li&gt;Kint: an amazing tool for debugging.&lt;/li&gt;
+&lt;li&gt;Kint: an amazing tool for debugging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The composer.json File&lt;/h2&gt;
+&lt;pre&gt;
+{
+    &quot;name&quot;: &quot;My Awesome Project&quot;,
+    &quot;description&quot;: &quot;No Description&quot;,
+    &quot;authors&quot;: [
+        {
+            &quot;name&quot;: &quot;Raffi Hovahnnesian&quot;,
+            &quot;email&quot;: &quot;name@example.com&quot;,
+            &quot;homepage&quot;: &quot;&quot;
+        }
+    ],
+    &quot;require&quot;: {
+        &quot;php&quot;: &quot;&amp;gt;=5.3.0&quot;,
+        &quot;monolog/monolog&quot;: &quot;1.*&quot;,
+        &quot;slim/slim&quot;: &quot;2.*&quot;,
+        &quot;slim/views&quot;: &quot;0.*&quot;,
+        &quot;twig/twig&quot;: &quot;1.*&quot;,
+        &quot;illuminate/database&quot;: &quot;*&quot;,
+        &quot;raveren/kint&quot;: &quot;^1.0&quot;,
+    }
+}
+&lt;/pre&gt;
+</description>
+        <pubDate>Mon, 15 Feb 2016 16:00:00 +0400</pubDate>
+        <link>http://hovhannesian.com/2016/02/15/how-does-my-composer-json-looks-like/</link>
+        <guid isPermaLink="true">http://hovhannesian.com/2016/02/15/how-does-my-composer-json-looks-like/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>To VIM or Not to VIM</title>
+        <description>&lt;h2&gt;What is VIM&lt;/h2&gt;
+&lt;p&gt;
+Vim (/vɪm/;[3] a contraction of Vi IMproved) is a clone of Bill Joy&#39;s vi editor for Unix. It was written by Bram Moolenaar based on source for a port of the Stevie editor to the Amiga[4] and first released publicly in 1991. Vim is designed for use both from a command-line interface and as a standalone application in a graphical user interface. Vim is free and open source software and is released under a license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda.[5] The license is compatible with the GNU General Public License.
+&lt;/p&gt;
+&lt;p&gt;
+Although Vim was originally released for the Amiga, Vim has since been developed to be cross-platform, supporting many other platforms. 
+&lt;/p&gt;
+&lt;h2&gt;Basic Vim Keyboard Commands to Start With&lt;/h2&gt;
+&lt;p&gt;
+hjkl
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Sep 2015 16:00:00 +0400</pubDate>
+        <link>http://hovhannesian.com/2015/09/16/to-vim-or-not-to-vim/</link>
+        <guid isPermaLink="true">http://hovhannesian.com/2015/09/16/to-vim-or-not-to-vim/</guid>
+        
+        
+      </item>
     
       <item>
         <title>1-2 Hours And Your Blog is Ready</title>
@@ -75,7 +140,6 @@ Follow the instructions on this page https://pages.github.com/
 &lt;p&gt;
 That&#39;s all for today... let me know which point needs to be described more extensively and I&#39;ll write a seperate post for it. Thanks for reading.
 &lt;/p&gt;
-&lt;p&gt;Photograph by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Sep 2015 16:00:00 +0400</pubDate>
         <link>http://hovhannesian.com/2015/09/12/create-blog-in-two-hours/</link>

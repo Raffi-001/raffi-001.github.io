@@ -4,7 +4,7 @@ title:      "To VIM or Not to VIM"
 subtitle:   "VIM has a steep learning curve, but it will pay off"
 date:       2015-09-16 12:00:00
 author:     "Raffi"
-header-img: "https://madekax.files.wordpress.com/2012/03/vimsetup.png"
+header-bg: "#3f2860"
 ---
 
 <h2>What is VIM</h2>

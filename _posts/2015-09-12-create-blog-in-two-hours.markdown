@@ -4,7 +4,8 @@ title:      "1-2 Hours And Your Blog is Ready"
 subtitle:   "Findout how to create and launch a modern blog in a very short time"
 date:       2015-09-12 12:00:00
 author:     "Raffi"
-header-img: "img/post-bg-06.jpg"
+#header-img: "img/post-bg-06.jpg"
+header-bg: "#ef6d3b"
 ---
 <p>In fact it took more than two hours to create this blog that you are reading right now, but that included doing several other tasks like fixing some issues on a client's site, browsing facebook, writing this article and fixing the kitchen's curtain for my mom.</p>
 
@@ -70,4 +71,3 @@ Follow the instructions on this page https://pages.github.com/
 <p>
 That's all for today... let me know which point needs to be described more extensively and I'll write a seperate post for it. Thanks for reading.
 </p>
-<p>Photograph by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
